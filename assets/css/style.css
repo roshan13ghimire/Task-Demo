@@ -1,0 +1,557 @@
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+.flex{
+    display: flex;
+}
+.fs-10{
+    font-size: 10px;
+}
+.fs-15{
+    font-size: 15px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-60{
+    font-size: 60px;
+}
+.wd-40{
+    width:40%;
+}
+.darkBlue{
+    color:#3d6996;
+}
+.lightBlue{
+    color:#5e9dd0;
+}
+.red{
+    color:#ffc2bf;
+}
+.white{
+    color:white;
+}
+.gray{
+    color:gray;
+}
+.blue{
+    color:#0575e6;
+}
+.center{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
+.header{
+    width:80%;
+    margin:0px auto;
+    height: 10vh;
+    justify-content: space-between;
+
+}
+.companyNname{
+    margin-top:25px;
+}
+.nav-list-item{
+    float:left;
+    list-style: none;
+    margin-top:15px;
+}
+.nav-list-item-links{
+    text-decoration: none;
+    padding:10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#0575e6;
+}
+.nav-list-item-links-white{
+    text-decoration: none;
+    padding:10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.nav-list-item:nth-child(5){
+    border:1px solid blue;
+    border-radius: 5px;
+}
+.nav-list-item:nth-child(6) {
+    border:1px solid blue;
+    background-color: blue;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.bodyContainerMain{
+    height: 90vh;
+    background-color: rgba(243,248,254,255);
+    display: flex;
+    justify-content: center;
+    
+}
+.line{
+    position: absolute;
+    top:30%;
+    left:-20%;
+    height: 2px;
+    width:150px;
+    background-color: #0575e6; 
+}
+.rLine{
+    position: absolute;
+    top:30%;
+    right:-20%;
+    height: 2px;
+    width:150px;
+    background-color: #0575e6; 
+}
+.circle{
+    position: absolute;
+    top:-5px;
+    left:-2px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #0575e6;
+}
+.nextLine{
+    height: 2px;
+    width:100px;
+    margin-top:-40px;
+    margin-left: -70px;
+    background-color: #0575e6; 
+    transform: rotate(60deg);
+}
+.lImage{
+    border-radius: 50%;
+    border: 2px solid #0575e6; 
+    margin-top:-90px;
+    margin-left:-150px;
+    transform: rotate(-80deg);
+}
+.downLine{
+    position: absolute;
+    left:45%;
+    height: 150px;
+    width:2px;
+    background-color: #0575e6; 
+}
+.rDownLine{
+    position: absolute;
+    right:0;
+    top:6px;
+    height: 150px;
+    width:2px;
+    background-color: #0575e6; 
+}
+.rCircle{
+    position: absolute;
+    top:0;
+    right:-2px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #0575e6;
+}
+.nCircle{
+    position: absolute;
+    top:0;
+    right:-3px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #0575e6;
+}
+
+.rImage{
+    border-radius: 50%;
+    border: 2px solid #0575e6; 
+    margin-top:150px;
+    margin-left: -80px;
+}
+.rLastImage{
+    border-radius: 50%;
+    border: 2px solid #0575e6; 
+    margin-top:-90px;
+    margin-left: 80px;
+}
+.rNextLine{
+    position: absolute;
+    right:80px;
+    top:-150px;
+    height: 150px;
+    width:2px;
+    background-color: #0575e6; 
+}
+.rLastLine{
+    position: absolute;
+    top:30%;
+    left:5px;
+    height: 2px;
+    width:100px;
+    background-color: #0575e6; 
+}
+.downCircle{
+    position: absolute;
+    bottom:0;
+    left: -4px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #0575e6;
+}
+.nextCircleLine{
+    height: 2px;
+    width:100px;
+    position: absolute;
+    margin-left:-70px;
+    margin-top:50px;
+    background-color: #0575e6; 
+    transform: rotate(-60deg);
+}
+.rotateUp{
+    transform: rotate(40deg);
+}
+
+.bodyContainer{
+    width:40%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    border:3px solid #5d9dd0;
+    height: 60vh;
+    background-color: rgba(243,248,254,255);
+    margin:auto 0;
+    position: relative;
+
+}
+.donate{
+    width:40%;
+    padding:10px 20px;
+    border-radius: 5px;
+    background-color: #0575e6;
+    border:none;
+    outline:none;
+    color:white;
+    cursor:pointer;
+    font-size: 18px;
+}
+.twoButtons{
+    width:40%;
+    padding:10px 20px;
+    color:black;
+    border:1px solid #0575e6;
+    cursor: pointer;
+}
+.watch{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: rgba(243,248,254,255);
+    font-size: 18px;
+    color:#0575e6;
+
+}
+.para{
+    line-height: 1.6;
+}
+.bodyDiv{
+    width: 50%;
+    height: 40vh;
+    margin:auto 0;
+}
+.buttons{
+    justify-content: space-between;
+}
+
+.spreadText{
+    margin-left: 15px;
+}
+
+.signUp{
+    margin-top:10px;
+}
+.signUpLink{
+    text-decoration: none;
+    font-weight: bold;   
+}
+.signInContainerMain{
+    height: 90vh;
+    background-color: rgba(243,248,254,255);
+    display: flex;
+    justify-content: center;
+}
+.signInContainer{
+    width:40%;
+    background-color: white;
+    height: 80vh;
+    margin :auto 0;
+    display: flex;
+    justify-content: center;
+}
+.formField{
+    position: relative;
+}
+.nextDiv{
+    width:50%; 
+}
+
+.input{
+    padding:10px 35px;
+    margin-top:25px;
+    border-radius: 10px;
+    color:gray;
+    font-size: 15px;
+    width:100%;
+    outline:none;
+    border:2px solid #3d6996;
+    transition: 1s;
+
+}
+.input:focus{
+    border:2px solid black;
+}
+.formField i{
+    position: absolute;
+    top:35px;
+    left:10px;
+    color:gray;
+    opacity: 0.5;
+    font-size: 20px;
+}
+.searchBox{
+    width:50%;
+    justify-content: space-between;
+    margin:-30px auto;
+    margin-bottom: 20px;
+}
+.inputField{
+    width:100%;
+    position: relative;
+}
+.searchInput{
+    width:100%;
+    padding:25px 20px;
+    border: none;
+}
+.searchIcon{
+    position: absolute;
+    top:25px;
+    right:0;
+}
+.searchIcon i{
+    cursor: pointer;
+    color:gray;
+}
+.cardsContainer{
+    width:70%;
+    margin:50px auto;
+}
+.cards{
+    justify-content: space-between;
+}
+.cardsHeading{
+    margin-bottom: 20px;
+}
+.cImage{
+    width:100%;
+    height: auto;
+}
+.cardItem{
+    width:30%;
+    box-shadow: 0px 7px 10px rgb(0 0 0 / 50%);
+    border-radius: 10px;
+    margin-top:50px;
+}
+.cardItem img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.dates{
+    justify-content: space-between;
+}
+.cardDescriptions{
+    width:80%;
+    margin:0px auto;
+}
+.cardButton{
+    display: flex;
+    justify-content: center;
+    margin:20px 0px;
+}
+.donateButton{
+    width: 60%;
+    padding:10px 15px;
+    border-radius: 5px;
+    background-color: white;
+    border:1px solid #0575e6;
+    color: #0575e6;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+.donateButton:hover{
+    background-color: #0575e6;
+    color:white;
+}
+.pagesContainer{
+    width: 70%;
+    margin:30px auto;
+    justify-content: space-between;
+}
+.pageNumber p{
+    padding:10px 15px;
+    cursor: pointer;
+}
+.pageNumber p:nth-child(1){
+    border:1px solid #0575e6;
+}
+.seeMore{
+    cursor: pointer;
+}
+.dottedLine{
+    border-top:2px dashed #0575e6;
+    width:70%;
+    margin:20px auto;   
+}
+.companiesList{
+    width:70%;
+    margin:40px auto;
+}
+.companyListHeading{
+    width:50%;
+}
+.companyImageBox{
+    flex:2;
+}
+.companyImage{
+    width:90%;
+}
+.companyImageLast{
+    justify-content: flex-end;
+    margin-left: 20px;
+}
+.upImageBox , .downImageBox{
+    justify-content: space-between;
+}
+.downImages{
+    margin-top:20px;
+}
+.footer{
+    height: 30vh;
+    background-color: #0575e6;
+    color:white;
+
+}
+.footerLeftBox li{
+    list-style: none;
+    padding:20px 0px;
+}
+.footerRightBox p{
+    padding:15px 0px;
+}
+.footerBox{
+    width:80%;
+    margin:0px auto;
+    justify-content: space-between;
+}
+.footerLeftBox{
+    margin-top:40px;
+}
+.footerRightBox{
+    margin-top: 40px;
+}
+.footerRightBox li{
+    list-style: none;
+    padding:20px 0px;
+}
+.footerRightBox a{
+    color:white;
+    
+}
+.forgotPassword{
+    text-align: right;
+}
+.forgotPasswordLink{
+    text-decoration: none;
+}
+.buttonDiv{
+    justify-content: center;
+    margin-top:40px;
+    margin-bottom: 20px;
+    
+}
+.button{
+    padding:10px 30px;
+    background-color: #0575e6;
+    border:none;
+    outline:none;
+    border-radius: 10px;
+    color:white;
+    cursor: pointer;
+}
+.connectWith{
+    position: relative;
+}
+.connectWith::before{
+    content :"";
+    width:30%;
+    height: 2px;
+    position: absolute;
+    top:10px;
+    left:0;
+    background-color: #0575e6;
+}
+.connectWith::after{
+    content :"";
+    width:30%;
+    height: 2px;
+    position: absolute;
+    top:10px;
+    right:0;
+    background-color: #0575e6;
+}
+.connectButton{
+    padding:10px 20px;
+    width:40%;
+    margin:10px auto;
+    margin-left:20px;
+    border: 1px solid #0575e6;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.icons{
+    margin-top:-5px;
+    margin-right: 5px;
+}
+.firstnameLastnamme{
+    justify-content: space-between;
+}
+.inputSmall{
+    width:30%;
+    padding:10px 20px;
+    margin-top:15px;
+    border-radius: 10px;
+    color:gray;
+    font-size: 15px;    
+    outline:none;
+    border:2px solid #3d6996;
+    transition: 1s;
+}
+.passwordSection{
+    border:1px solid #0575e6;
+    margin-top:20px;
+    padding:10px;
+}
